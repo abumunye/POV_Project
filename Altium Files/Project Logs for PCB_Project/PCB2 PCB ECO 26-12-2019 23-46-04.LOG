@@ -1,0 +1,31 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=D? NewDesignator=D4
+Change Component Designator: OldDesignator=D? NewDesignator=D5
+Change Component Designator: OldDesignator=D? NewDesignator=D6
+Change Component Designator: OldDesignator=D? NewDesignator=D7
+Change Component Designator: OldDesignator=D? NewDesignator=D8
+Change Component Designator: OldDesignator=D? NewDesignator=D9
+Change Component Designator: OldDesignator=D? NewDesignator=D10
+Change Component Designator: OldDesignator=D? NewDesignator=D11
+Change Component Designator: OldDesignator=D? NewDesignator=D12
+Change Component Designator: OldDesignator=IC? NewDesignator=IC1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC1_2
+Change Net Name : Old Net Name=NetIC?_44 New Net Name=NetIC1_44
+Added Member To Class: ClassName=Sheet1 Member=Component C1 0603 Cap
+Added Member To Class: ClassName=Sheet1 Member=Component D1 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D2 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D4 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D5 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D6 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D7 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D8 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D9 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D10 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D11 Component_1
+Added Member To Class: ClassName=Sheet1 Member=Component D12 Component_1
+Added Room: Name=Sheet1
