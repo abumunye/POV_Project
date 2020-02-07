@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=OUTR0 Pin=D33-1
+Removed Pin From Net: NetName=OUTG0 Pin=D33-2
+Removed Pin From Net: NetName=OUTB0 Pin=D33-3
+Removed Pin From Net: NetName=OUTR0 Pin=D49-1
+Removed Pin From Net: NetName=OUTG0 Pin=D49-2
+Removed Pin From Net: NetName=OUTB0 Pin=D49-3
+Removed Pin From Net: NetName=OUTB0 Pin=IC2-42
+Removed Pin From Net: NetName=OUTR0 Pin=IC2-43
+Removed Pin From Net: NetName=OUTG0 Pin=IC2-44
+Added Pin To Net: NetName=OUTB0_1 Pin=D33-3
+Added Pin To Net: NetName=OUTB0_1 Pin=D49-3
+Added Pin To Net: NetName=OUTB0_1 Pin=IC2-42
+Added Net: Name=OUTB0_1
+Added Pin To Net: NetName=OUTG0_1 Pin=D33-2
+Added Pin To Net: NetName=OUTG0_1 Pin=D49-2
+Added Pin To Net: NetName=OUTG0_1 Pin=IC2-44
+Added Net: Name=OUTG0_1
+Added Pin To Net: NetName=OUTR0_1 Pin=D33-1
+Added Pin To Net: NetName=OUTR0_1 Pin=D49-1
+Added Pin To Net: NetName=OUTR0_1 Pin=IC2-43
+Added Net: Name=OUTR0_1
+Added Room: Name=Sheet1
+Added Room: Name=TLC5955

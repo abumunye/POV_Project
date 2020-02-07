@@ -1,0 +1,269 @@
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Added Component: Designator=D33(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D34(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D35(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D36(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D37(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D38(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D39(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D40(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D41(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D42(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D43(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D44(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D45(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D46(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D47(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D48(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D49(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D50(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D51(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D52(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D53(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D54(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D55(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D56(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D57(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D58(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D59(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D60(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D61(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D62(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D63(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D64(RGB LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=IC2(TLC5955)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P1(HDR1X10)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=OUTR0 Pin=D33-1
+Added Pin To Net: NetName=OUTG0 Pin=D33-2
+Added Pin To Net: NetName=OUTB0 Pin=D33-3
+Added Pin To Net: NetName=+VIN_1 Pin=D33-4
+Added Pin To Net: NetName=OUTR1 Pin=D34-1
+Added Pin To Net: NetName=OUTG1 Pin=D34-2
+Added Pin To Net: NetName=OUTB1 Pin=D34-3
+Added Pin To Net: NetName=+VIN_1 Pin=D34-4
+Added Pin To Net: NetName=OUTR2 Pin=D35-1
+Added Pin To Net: NetName=OUTG2 Pin=D35-2
+Added Pin To Net: NetName=OUTB2 Pin=D35-3
+Added Pin To Net: NetName=+VIN_1 Pin=D35-4
+Added Pin To Net: NetName=OUTR3 Pin=D36-1
+Added Pin To Net: NetName=OUTG3 Pin=D36-2
+Added Pin To Net: NetName=OUTB3 Pin=D36-3
+Added Pin To Net: NetName=+VIN_1 Pin=D36-4
+Added Pin To Net: NetName=OUTR4 Pin=D37-1
+Added Pin To Net: NetName=OUTG4 Pin=D37-2
+Added Pin To Net: NetName=OUTB4 Pin=D37-3
+Added Pin To Net: NetName=+VIN_1 Pin=D37-4
+Added Pin To Net: NetName=OUTR5 Pin=D38-1
+Added Pin To Net: NetName=OUTG5 Pin=D38-2
+Added Pin To Net: NetName=OUTB5 Pin=D38-3
+Added Pin To Net: NetName=+VIN_1 Pin=D38-4
+Added Pin To Net: NetName=OUTR6 Pin=D39-1
+Added Pin To Net: NetName=OUTG6 Pin=D39-2
+Added Pin To Net: NetName=OUTB6 Pin=D39-3
+Added Pin To Net: NetName=+VIN_1 Pin=D39-4
+Added Pin To Net: NetName=OUTR7 Pin=D40-1
+Added Pin To Net: NetName=OUTG7 Pin=D40-2
+Added Pin To Net: NetName=OUTB7 Pin=D40-3
+Added Pin To Net: NetName=+VIN_1 Pin=D40-4
+Added Pin To Net: NetName=OUTR8 Pin=D41-1
+Added Pin To Net: NetName=OUTG8 Pin=D41-2
+Added Pin To Net: NetName=OUTB8 Pin=D41-3
+Added Pin To Net: NetName=+VIN_1 Pin=D41-4
+Added Pin To Net: NetName=OUTR9 Pin=D42-1
+Added Pin To Net: NetName=OUTG9 Pin=D42-2
+Added Pin To Net: NetName=OUTB9 Pin=D42-3
+Added Pin To Net: NetName=+VIN_1 Pin=D42-4
+Added Pin To Net: NetName=OUTR10 Pin=D43-1
+Added Pin To Net: NetName=OUTG10 Pin=D43-2
+Added Pin To Net: NetName=OUTB10 Pin=D43-3
+Added Pin To Net: NetName=+VIN_1 Pin=D43-4
+Added Pin To Net: NetName=OUTR11 Pin=D44-1
+Added Pin To Net: NetName=OUTG11 Pin=D44-2
+Added Pin To Net: NetName=OUTB11 Pin=D44-3
+Added Pin To Net: NetName=+VIN_1 Pin=D44-4
+Added Pin To Net: NetName=OUTR12 Pin=D45-1
+Added Pin To Net: NetName=OUTG12 Pin=D45-2
+Added Pin To Net: NetName=OUTB12 Pin=D45-3
+Added Pin To Net: NetName=+VIN_1 Pin=D45-4
+Added Pin To Net: NetName=OUTR13 Pin=D46-1
+Added Pin To Net: NetName=OUTG13 Pin=D46-2
+Added Pin To Net: NetName=OUTB13 Pin=D46-3
+Added Pin To Net: NetName=+VIN_1 Pin=D46-4
+Added Pin To Net: NetName=OUTR14 Pin=D47-1
+Added Pin To Net: NetName=OUTG14 Pin=D47-2
+Added Pin To Net: NetName=OUTB14 Pin=D47-3
+Added Pin To Net: NetName=+VIN_1 Pin=D47-4
+Added Pin To Net: NetName=OUTR15 Pin=D48-1
+Added Pin To Net: NetName=OUTG15 Pin=D48-2
+Added Pin To Net: NetName=OUTB15 Pin=D48-3
+Added Pin To Net: NetName=+VIN_1 Pin=D48-4
+Added Pin To Net: NetName=OUTR0 Pin=D49-1
+Added Pin To Net: NetName=OUTG0 Pin=D49-2
+Added Pin To Net: NetName=OUTB0 Pin=D49-3
+Added Pin To Net: NetName=+VIN_2 Pin=D49-4
+Added Pin To Net: NetName=OUTR1 Pin=D50-1
+Added Pin To Net: NetName=OUTG1 Pin=D50-2
+Added Pin To Net: NetName=OUTB1 Pin=D50-3
+Added Pin To Net: NetName=+VIN_2 Pin=D50-4
+Added Pin To Net: NetName=OUTR2 Pin=D51-1
+Added Pin To Net: NetName=OUTG2 Pin=D51-2
+Added Pin To Net: NetName=OUTB2 Pin=D51-3
+Added Pin To Net: NetName=+VIN_2 Pin=D51-4
+Added Pin To Net: NetName=OUTR3 Pin=D52-1
+Added Pin To Net: NetName=OUTG3 Pin=D52-2
+Added Pin To Net: NetName=OUTB3 Pin=D52-3
+Added Pin To Net: NetName=+VIN_2 Pin=D52-4
+Added Pin To Net: NetName=OUTR4 Pin=D53-1
+Added Pin To Net: NetName=OUTG4 Pin=D53-2
+Added Pin To Net: NetName=OUTB4 Pin=D53-3
+Added Pin To Net: NetName=+VIN_2 Pin=D53-4
+Added Pin To Net: NetName=OUTR5 Pin=D54-1
+Added Pin To Net: NetName=OUTG5 Pin=D54-2
+Added Pin To Net: NetName=OUTB5 Pin=D54-3
+Added Pin To Net: NetName=+VIN_2 Pin=D54-4
+Added Pin To Net: NetName=OUTR6 Pin=D55-1
+Added Pin To Net: NetName=OUTG6 Pin=D55-2
+Added Pin To Net: NetName=OUTB6 Pin=D55-3
+Added Pin To Net: NetName=+VIN_2 Pin=D55-4
+Added Pin To Net: NetName=OUTR7 Pin=D56-1
+Added Pin To Net: NetName=OUTG7 Pin=D56-2
+Added Pin To Net: NetName=OUTB7 Pin=D56-3
+Added Pin To Net: NetName=+VIN_2 Pin=D56-4
+Added Pin To Net: NetName=OUTR8 Pin=D57-1
+Added Pin To Net: NetName=OUTG8 Pin=D57-2
+Added Pin To Net: NetName=OUTB8 Pin=D57-3
+Added Pin To Net: NetName=+VIN_2 Pin=D57-4
+Added Pin To Net: NetName=OUTR9 Pin=D58-1
+Added Pin To Net: NetName=OUTG9 Pin=D58-2
+Added Pin To Net: NetName=OUTB9 Pin=D58-3
+Added Pin To Net: NetName=+VIN_2 Pin=D58-4
+Added Pin To Net: NetName=OUTR10 Pin=D59-1
+Added Pin To Net: NetName=OUTG10 Pin=D59-2
+Added Pin To Net: NetName=OUTB10 Pin=D59-3
+Added Pin To Net: NetName=+VIN_2 Pin=D59-4
+Added Pin To Net: NetName=OUTR11 Pin=D60-1
+Added Pin To Net: NetName=OUTG11 Pin=D60-2
+Added Pin To Net: NetName=OUTB11 Pin=D60-3
+Added Pin To Net: NetName=+VIN_2 Pin=D60-4
+Added Pin To Net: NetName=OUTR12 Pin=D61-1
+Added Pin To Net: NetName=OUTG12 Pin=D61-2
+Added Pin To Net: NetName=OUTB12 Pin=D61-3
+Added Pin To Net: NetName=+VIN_2 Pin=D61-4
+Added Pin To Net: NetName=OUTR13 Pin=D62-1
+Added Pin To Net: NetName=OUTG13 Pin=D62-2
+Added Pin To Net: NetName=OUTB13 Pin=D62-3
+Added Pin To Net: NetName=+VIN_2 Pin=D62-4
+Added Pin To Net: NetName=OUTR14 Pin=D63-1
+Added Pin To Net: NetName=OUTG14 Pin=D63-2
+Added Pin To Net: NetName=OUTB14 Pin=D63-3
+Added Pin To Net: NetName=+VIN_2 Pin=D63-4
+Added Pin To Net: NetName=OUTR15 Pin=D64-1
+Added Pin To Net: NetName=OUTG15 Pin=D64-2
+Added Pin To Net: NetName=OUTB15 Pin=D64-3
+Added Pin To Net: NetName=+VIN_2 Pin=D64-4
+Added Pin To Net: NetName=OUTB3 Pin=IC2-1
+Added Pin To Net: NetName=OUTR3 Pin=IC2-2
+Added Pin To Net: NetName=OUTG3 Pin=IC2-3
+Added Pin To Net: NetName=OUTB7 Pin=IC2-4
+Added Pin To Net: NetName=OUTR7 Pin=IC2-5
+Added Pin To Net: NetName=OUTG7 Pin=IC2-6
+Added Pin To Net: NetName=SOUT Pin=IC2-7
+Added Pin To Net: NetName=GND Pin=IC2-8
+Added Pin To Net: NetName=OUTG11 Pin=IC2-9
+Added Pin To Net: NetName=OUTR11 Pin=IC2-10
+Added Pin To Net: NetName=OUTB11 Pin=IC2-11
+Added Pin To Net: NetName=OUTG15 Pin=IC2-12
+Added Pin To Net: NetName=OUTR15 Pin=IC2-13
+Added Pin To Net: NetName=OUTB15 Pin=IC2-14
+Added Pin To Net: NetName=OUTG10 Pin=IC2-15
+Added Pin To Net: NetName=OUTR10 Pin=IC2-16
+Added Pin To Net: NetName=OUTB10 Pin=IC2-17
+Added Pin To Net: NetName=OUTG14 Pin=IC2-18
+Added Pin To Net: NetName=OUTR14 Pin=IC2-19
+Added Pin To Net: NetName=OUTB14 Pin=IC2-20
+Added Pin To Net: NetName=OUTG13 Pin=IC2-21
+Added Pin To Net: NetName=OUTR13 Pin=IC2-22
+Added Pin To Net: NetName=OUTB13 Pin=IC2-23
+Added Pin To Net: NetName=OUTG9 Pin=IC2-24
+Added Pin To Net: NetName=OUTR9 Pin=IC2-25
+Added Pin To Net: NetName=OUTB9 Pin=IC2-26
+Added Pin To Net: NetName=OUTG12 Pin=IC2-27
+Added Pin To Net: NetName=OUTR12 Pin=IC2-28
+Added Pin To Net: NetName=OUTB12 Pin=IC2-29
+Added Pin To Net: NetName=OUTG8 Pin=IC2-30
+Added Pin To Net: NetName=OUTR8 Pin=IC2-31
+Added Pin To Net: NetName=OUTB8 Pin=IC2-32
+Added Pin To Net: NetName=VCC Pin=IC2-33
+Added Pin To Net: NetName=GSCLK Pin=IC2-34
+Added Pin To Net: NetName=GND Pin=IC2-35
+Added Pin To Net: NetName=SIN Pin=IC2-36
+Added Pin To Net: NetName=SCLK Pin=IC2-37
+Added Pin To Net: NetName=LAT Pin=IC2-38
+Added Pin To Net: NetName=OUTB4 Pin=IC2-39
+Added Pin To Net: NetName=OUTR4 Pin=IC2-40
+Added Pin To Net: NetName=OUTG4 Pin=IC2-41
+Added Pin To Net: NetName=OUTB0 Pin=IC2-42
+Added Pin To Net: NetName=OUTR0 Pin=IC2-43
+Added Pin To Net: NetName=OUTG0 Pin=IC2-44
+Added Pin To Net: NetName=OUTB5 Pin=IC2-45
+Added Pin To Net: NetName=OUTR5 Pin=IC2-46
+Added Pin To Net: NetName=OUTG5 Pin=IC2-47
+Added Pin To Net: NetName=OUTB1 Pin=IC2-48
+Added Pin To Net: NetName=OUTR1 Pin=IC2-49
+Added Pin To Net: NetName=OUTG1 Pin=IC2-50
+Added Pin To Net: NetName=OUTB2 Pin=IC2-51
+Added Pin To Net: NetName=OUTR2 Pin=IC2-52
+Added Pin To Net: NetName=OUTG2 Pin=IC2-53
+Added Pin To Net: NetName=OUTB6 Pin=IC2-54
+Added Pin To Net: NetName=OUTR6 Pin=IC2-55
+Added Pin To Net: NetName=OUTG6 Pin=IC2-56
+Added Pin To Net: NetName=GND Pin=IC2-57
+Added Pin To Net: NetName=LAT Pin=P1-1
+Added Pin To Net: NetName=SCLK Pin=P1-2
+Added Pin To Net: NetName=SIN Pin=P1-3
+Added Pin To Net: NetName=GSCLK Pin=P1-4
+Added Pin To Net: NetName=VCC Pin=P1-5
+Added Pin To Net: NetName=SOUT Pin=P1-6
+Added Pin To Net: NetName=+VIN_1 Pin=P1-7
+Added Pin To Net: NetName=+VIN_2 Pin=P1-8
+Added Pin To Net: NetName=GND Pin=P1-10
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1
+Added Room: Name=TLC5955
