@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=GND Pin=IC2-8
+Added Pin To Net: NetName=GND Pin=IC2-35
+Added Pin To Net: NetName=GND Pin=IC2-57
+Added Pin To Net: NetName=GND Pin=P1-10
+Added Room: Name=Sheet1
+Added Room: Name=TLC5955

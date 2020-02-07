@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SOUT Pin=IC2-7
+Removed Pin From Net: NetName=SIN Pin=IC2-36
+Added Pin To Net: NetName=SIN Pin=IC2-7
+Added Pin To Net: NetName=Error_Read Pin=IC2-36
+Added Pin To Net: NetName=Error_Read Pin=P1-9
+Added Net: Name=Error_Read
+Added Room: Name=Sheet1
+Added Room: Name=TLC5955
