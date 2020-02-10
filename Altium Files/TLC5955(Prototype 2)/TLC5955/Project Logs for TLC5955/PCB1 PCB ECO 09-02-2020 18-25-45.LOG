@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=1_SIN Pin=U1-26
+Added Component: Designator=C7(CAPR5-4X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPR5-4X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C9(0805 Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P3(HDR1X10)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=R1(AXIAL-0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R2(AXIAL-0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V2 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=V1 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=1_SCLK Pin=P3-1
+Added Pin To Net: NetName=1_LAT Pin=P3-2
+Added Pin To Net: NetName=1_SIN Pin=P3-3
+Added Pin To Net: NetName=V1 Pin=P3-9
+Added Pin To Net: NetName=V2 Pin=P3-10
+Added Pin To Net: NetName=1_ERROR Pin=P3-6
+Added Pin To Net: NetName=1_ERROR Pin=U1-42
+Added Net: Name=1_ERROR
+Added Pin To Net: NetName=1_GCLK Pin=IC3-29
+Added Pin To Net: NetName=1_GCLK Pin=P3-4
+Added Pin To Net: NetName=1_GCLK Pin=U1-29
+Added Net: Name=1_GCLK
+Added Pin To Net: NetName=1_GND Pin=IC3-57
+Added Pin To Net: NetName=1_GND Pin=P3-8
+Added Pin To Net: NetName=1_GND Pin=U1-57
+Added Net: Name=1_GND
+Added Pin To Net: NetName=1_SOUT Pin=IC3-42
+Added Pin To Net: NetName=1_SOUT Pin=P3-5
+Added Pin To Net: NetName=1_SOUT Pin=U1-26
+Added Net: Name=1_SOUT
+Added Pin To Net: NetName=1_VCC Pin=C9-2
+Added Pin To Net: NetName=1_VCC Pin=IC3-43
+Added Pin To Net: NetName=1_VCC Pin=P3-7
+Added Pin To Net: NetName=1_VCC Pin=U1-43
+Added Net: Name=1_VCC
+Added Pin To Net: NetName=NetIC3_1 Pin=IC3-1
+Added Pin To Net: NetName=NetIC3_1 Pin=R2-1
+Added Net: Name=NetIC3_1
+Added Pin To Net: NetName=NetIC3_56 Pin=IC3-56
+Added Pin To Net: NetName=NetIC3_56 Pin=R2-2
+Added Net: Name=NetIC3_56
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U1-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-56
+Added Net: Name=NetR1_2
+Added Member To Class: ClassName=TLC59581 Member=Component C7 Cap2
+Added Member To Class: ClassName=TLC59581 Member=Component C8 Cap2
+Added Member To Class: ClassName=TLC59581 Member=Component C9 0805 Capacitor
+Added Member To Class: ClassName=TLC59581 Member=Component P3 Header 10
+Added Member To Class: ClassName=Sheet3 Member=Component R1 Res1
+Added Member To Class: ClassName=TLC59581 Member=Component R2 Res1
+Added Room: Name=Sheet1
+Added Room: Name=TLC5955

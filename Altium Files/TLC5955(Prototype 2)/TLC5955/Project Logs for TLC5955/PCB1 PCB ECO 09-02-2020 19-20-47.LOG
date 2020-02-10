@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C?-1
+Removed Pin From Net: NetName=GND Pin=C?-2
+Removed Pin From Net: NetName=GND Pin=C?-2
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Added Pin To Net: NetName=1_GND Pin=C7-2
+Added Pin To Net: NetName=1_GND Pin=C8-2
+Added Pin To Net: NetName=1_GND Pin=C9-1
+Added Pin To Net: NetName=1_GND Pin=C10-2
+Added Pin To Net: NetName=1_GND Pin=C11-2
+Added Pin To Net: NetName=1_GND Pin=C12-1
+Added Member To Class: ClassName=Sheet3 Member=Component C10 Cap2
+Added Member To Class: ClassName=Sheet3 Member=Component C11 Cap2
+Added Room: Name=Sheet1
+Added Room: Name=Sheet3
+Added Room: Name=TLC5955
+Added Room: Name=TLC59581

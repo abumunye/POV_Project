@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=V1 Pin=D65-4
+Removed Pin From Net: NetName=V1 Pin=D66-4
+Removed Pin From Net: NetName=V1 Pin=D67-4
+Removed Pin From Net: NetName=V1 Pin=D68-4
+Removed Pin From Net: NetName=V1 Pin=D69-4
+Removed Pin From Net: NetName=V1 Pin=D70-4
+Removed Pin From Net: NetName=V1 Pin=D71-4
+Removed Pin From Net: NetName=V1 Pin=D72-4
+Removed Pin From Net: NetName=V1 Pin=D73-4
+Removed Pin From Net: NetName=V1 Pin=D74-4
+Removed Pin From Net: NetName=V1 Pin=D75-4
+Removed Pin From Net: NetName=V1 Pin=D76-4
+Removed Pin From Net: NetName=V1 Pin=D77-4
+Removed Pin From Net: NetName=V1 Pin=D78-4
+Removed Pin From Net: NetName=V1 Pin=D79-4
+Removed Pin From Net: NetName=V1 Pin=D80-4
+Removed Pin From Net: NetName=V2 Pin=D81-4
+Removed Pin From Net: NetName=V2 Pin=D82-4
+Removed Pin From Net: NetName=V2 Pin=D83-4
+Removed Pin From Net: NetName=V2 Pin=D84-4
+Removed Pin From Net: NetName=V2 Pin=D85-4
+Removed Pin From Net: NetName=V2 Pin=D86-4
+Removed Pin From Net: NetName=V2 Pin=D87-4
+Removed Pin From Net: NetName=V2 Pin=D88-4
+Removed Pin From Net: NetName=V2 Pin=D89-4
+Removed Pin From Net: NetName=V2 Pin=D90-4
+Removed Pin From Net: NetName=V2 Pin=D91-4
+Removed Pin From Net: NetName=V2 Pin=D92-4
+Removed Pin From Net: NetName=V2 Pin=D93-4
+Removed Pin From Net: NetName=V2 Pin=D94-4
+Removed Pin From Net: NetName=V2 Pin=D95-4
+Removed Pin From Net: NetName=V2 Pin=D96-4
+Added Component: Designator=C?(0805 Capacitor)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAPR5-4X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPR5-4X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=1_VCC Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=V3 Pin=C?-1
+Added Pin To Net: NetName=V3 Pin=D65-4
+Added Pin To Net: NetName=V3 Pin=D66-4
+Added Pin To Net: NetName=V3 Pin=D67-4
+Added Pin To Net: NetName=V3 Pin=D68-4
+Added Pin To Net: NetName=V3 Pin=D69-4
+Added Pin To Net: NetName=V3 Pin=D70-4
+Added Pin To Net: NetName=V3 Pin=D71-4
+Added Pin To Net: NetName=V3 Pin=D72-4
+Added Pin To Net: NetName=V3 Pin=D73-4
+Added Pin To Net: NetName=V3 Pin=D74-4
+Added Pin To Net: NetName=V3 Pin=D75-4
+Added Pin To Net: NetName=V3 Pin=D76-4
+Added Pin To Net: NetName=V3 Pin=D77-4
+Added Pin To Net: NetName=V3 Pin=D78-4
+Added Pin To Net: NetName=V3 Pin=D79-4
+Added Pin To Net: NetName=V3 Pin=D80-4
+Added Net: Name=V3
+Added Pin To Net: NetName=V4 Pin=C?-1
+Added Pin To Net: NetName=V4 Pin=D81-4
+Added Pin To Net: NetName=V4 Pin=D82-4
+Added Pin To Net: NetName=V4 Pin=D83-4
+Added Pin To Net: NetName=V4 Pin=D84-4
+Added Pin To Net: NetName=V4 Pin=D85-4
+Added Pin To Net: NetName=V4 Pin=D86-4
+Added Pin To Net: NetName=V4 Pin=D87-4
+Added Pin To Net: NetName=V4 Pin=D88-4
+Added Pin To Net: NetName=V4 Pin=D89-4
+Added Pin To Net: NetName=V4 Pin=D90-4
+Added Pin To Net: NetName=V4 Pin=D91-4
+Added Pin To Net: NetName=V4 Pin=D92-4
+Added Pin To Net: NetName=V4 Pin=D93-4
+Added Pin To Net: NetName=V4 Pin=D94-4
+Added Pin To Net: NetName=V4 Pin=D95-4
+Added Pin To Net: NetName=V4 Pin=D96-4
+Added Net: Name=V4
+Added Member To Class: ClassName=Sheet3 Member=Component C? 0805 Capacitor
+Added Member To Class: ClassName=Sheet3 Member=Component C? Cap2
+Added Member To Class: ClassName=Sheet3 Member=Component C? Cap2
+Added Room: Name=Sheet1
+Added Room: Name=TLC5955
+Added Room: Name=TLC59581
