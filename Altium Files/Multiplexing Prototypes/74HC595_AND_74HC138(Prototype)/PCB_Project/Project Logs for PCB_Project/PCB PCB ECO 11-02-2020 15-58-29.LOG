@@ -1,0 +1,21 @@
+Added Component: Designator=ZD1(Zener Diode)
+Add component. Clean all parameters for all variants
+Added Component: Designator=ZD2(Zener Diode)
+Add component. Clean all parameters for all variants
+Added Component: Designator=ZD3(Zener Diode)
+Add component. Clean all parameters for all variants
+Added Component: Designator=ZD4(Zener Diode)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR1_2 Pin=ZD1-1
+Added Pin To Net: NetName=GND Pin=ZD1-2
+Added Pin To Net: NetName=NetR4_2 Pin=ZD2-1
+Added Pin To Net: NetName=GND Pin=ZD2-2
+Added Pin To Net: NetName=NetR8_2 Pin=ZD3-1
+Added Pin To Net: NetName=GND Pin=ZD3-2
+Added Pin To Net: NetName=NetR12_2 Pin=ZD4-1
+Added Pin To Net: NetName=GND Pin=ZD4-2
+Added Member To Class: ClassName=Schematic Member=Component ZD1 3V
+Added Member To Class: ClassName=Schematic Member=Component ZD2 3V
+Added Member To Class: ClassName=Schematic Member=Component ZD3 3V
+Added Member To Class: ClassName=Schematic Member=Component ZD4 3V
+Added Room: Name=Schematic

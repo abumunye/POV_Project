@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=GND Pin=U9-8
+Added Pin To Net: NetName=GND Pin=U9-17
+Added Pin To Net: NetName=GND Pin=U10-8
+Added Pin To Net: NetName=GND Pin=U10-17
+Added Room: Name=Schematic
