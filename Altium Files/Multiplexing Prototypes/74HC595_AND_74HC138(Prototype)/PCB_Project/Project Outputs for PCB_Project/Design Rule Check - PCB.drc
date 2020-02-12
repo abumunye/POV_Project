@@ -1,0 +1,226 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\abuba\Desktop\Newest Website\POV_Project\Altium Files\Multiplexing Prototypes\74HC595_AND_74HC138(Prototype)\PCB_Project\PCB.PcbDoc
+Date     : 12/02/2020
+Time     : 00:48:00
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (5mil < 10mil) Between Text "D1" (2348.925mil,-570.059mil) on Top Overlay And Track (2297.992mil,-577.559mil)(2457.992mil,-577.559mil) on Top Overlay Silk Text to Silk Clearance [5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.781mil < 10mil) Between Text "D10" (1305mil,-200mil) on Top Overlay And Track (1283.929mil,-212.614mil)(1406.929mil,-212.614mil) on Top Overlay Silk Text to Silk Clearance [9.781mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D11" (1051.267mil,-206.614mil) on Top Overlay And Track (1023.669mil,-217.614mil)(1146.669mil,-217.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.361mil < 10mil) Between Text "D11" (1051.267mil,-206.614mil) on Top Overlay And Track (1096.669mil,-285.614mil)(1096.669mil,-217.614mil) on Top Overlay Silk Text to Silk Clearance [9.361mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D13" (1950mil,-1150mil) on Top Overlay And Track (1932.999mil,-1161mil)(2055.999mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.171mil < 10mil) Between Text "D14" (1950mil,-2161.329mil) on Top Overlay And Track (1932.999mil,-2171mil)(2055.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.171mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D15" (885mil,-3170.692mil) on Top Overlay And Track (869mil,-3181mil)(992mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D16" (2601.181mil,-2661.263mil) on Top Overlay And Track (2585.181mil,-2671.571mil)(2708.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.863mil < 10mil) Between Text "D17" (1800mil,-1150.693mil) on Top Overlay And Track (1780.999mil,-1161mil)(1903.999mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [7.863mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D18" (1800mil,-2160.692mil) on Top Overlay And Track (1780.999mil,-2171mil)(1903.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D19" (1035mil,-3170mil) on Top Overlay And Track (1020mil,-3181mil)(1143mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D2" (2468.59mil,-171.614mil) on Top Overlay And Track (2440.992mil,-182.614mil)(2563.992mil,-182.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.885mil < 10mil) Between Text "D2" (2468.59mil,-171.614mil) on Top Overlay And Track (2513.992mil,-250.614mil)(2513.992mil,-182.614mil) on Top Overlay Silk Text to Silk Clearance [8.885mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D20" (2751.181mil,-2660.571mil) on Top Overlay And Track (2736.181mil,-2671.571mil)(2859.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.165mil < 10mil) Between Text "D20" (2751.181mil,-2660.571mil) on Top Overlay And Track (2786.181mil,-2739.571mil)(2786.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [9.165mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D21" (1645mil,-1150.693mil) on Top Overlay And Track (1628.999mil,-1161mil)(1751.999mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (9.572mil < 10mil) Between Text "D21" (1645mil,-1150.693mil) on Top Overlay And Track (1678.999mil,-1229mil)(1678.999mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [9.572mil]
+   Violation between Silk To Silk Clearance Constraint: (7.226mil < 10mil) Between Text "D22" (1645mil,-2161.329mil) on Top Overlay And Track (1628.999mil,-2171mil)(1751.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.226mil]
+   Violation between Silk To Silk Clearance Constraint: (8mil < 10mil) Between Text "D22" (1645mil,-2161.329mil) on Top Overlay And Track (1678.999mil,-2239mil)(1678.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [8mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D23" (1190mil,-3170mil) on Top Overlay And Track (1172mil,-3181mil)(1295mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.823mil < 10mil) Between Text "D23" (1190mil,-3170mil) on Top Overlay And Track (1222mil,-3249mil)(1222mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [9.823mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D24" (2906.181mil,-2660.571mil) on Top Overlay And Track (2888.181mil,-2671.571mil)(3011.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.25mil < 10mil) Between Text "D24" (2906.181mil,-2660.571mil) on Top Overlay And Track (2938.181mil,-2739.571mil)(2938.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [9.25mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D25" (1495mil,-1150.055mil) on Top Overlay And Track (1476mil,-1161mil)(1599mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.839mil < 10mil) Between Text "D25" (1495mil,-1150.055mil) on Top Overlay And Track (1526mil,-1229mil)(1526mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [9.839mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D26" (1496.883mil,-2160.692mil) on Top Overlay And Track (1475.999mil,-2171mil)(1598.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (9.969mil < 10mil) Between Text "D26" (1496.883mil,-2160.692mil) on Top Overlay And Track (1525.999mil,-2239mil)(1525.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [9.969mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D27" (1340mil,-3170.055mil) on Top Overlay And Track (1324mil,-3181mil)(1447mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.65mil < 10mil) Between Text "D27" (1340mil,-3170.055mil) on Top Overlay And Track (1374mil,-3249mil)(1374mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [8.65mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D28" (3056.181mil,-2660.626mil) on Top Overlay And Track (3040.181mil,-2671.571mil)(3163.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.705mil < 10mil) Between Text "D28" (3056.181mil,-2660.626mil) on Top Overlay And Track (3090.181mil,-2739.571mil)(3090.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [8.705mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D29" (1340mil,-1150.055mil) on Top Overlay And Track (1324mil,-1161mil)(1447mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.705mil < 10mil) Between Text "D29" (1340mil,-1150.055mil) on Top Overlay And Track (1374mil,-1229mil)(1374mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [8.705mil]
+   Violation between Silk To Silk Clearance Constraint: (5mil < 10mil) Between Text "D3" (1903.925mil,-585.059mil) on Top Overlay And Track (1852.992mil,-592.559mil)(2012.992mil,-592.559mil) on Top Overlay Silk Text to Silk Clearance [5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.863mil < 10mil) Between Text "D30" (1340.401mil,-2160.637mil) on Top Overlay And Track (1323.999mil,-2171mil)(1446.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.863mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D31" (1495mil,-3170.055mil) on Top Overlay And Track (1476mil,-3181mil)(1599mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D32" (3211.181mil,-2660.626mil) on Top Overlay And Track (3192.181mil,-2671.571mil)(3315.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D33" (1190mil,-1150mil) on Top Overlay And Track (1172mil,-1161mil)(1295mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.863mil < 10mil) Between Text "D34" (1185.401mil,-2160.637mil) on Top Overlay And Track (1171.999mil,-2171mil)(1294.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.863mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D35" (1645mil,-3170.692mil) on Top Overlay And Track (1629mil,-3181mil)(1752mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D36" (3361.181mil,-2661.263mil) on Top Overlay And Track (3345.181mil,-2671.571mil)(3468.181mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D37" (1035mil,-1150mil) on Top Overlay And Track (1020mil,-1161mil)(1143mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.863mil < 10mil) Between Text "D38" (1035.401mil,-2160.637mil) on Top Overlay And Track (1019.999mil,-2171mil)(1142.999mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.863mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D39" (1800mil,-3170.692mil) on Top Overlay And Track (1780.999mil,-3181mil)(1903.999mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D4" (2224.59mil,-171.614mil) on Top Overlay And Track (2192.59mil,-182.614mil)(2315.59mil,-182.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D40" (3516.181mil,-2661.263mil) on Top Overlay And Track (3497.18mil,-2671.571mil)(3620.18mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D41" (885mil,-1150.693mil) on Top Overlay And Track (869mil,-1161mil)(992mil,-1161mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.171mil < 10mil) Between Text "D42" (885.401mil,-2161.329mil) on Top Overlay And Track (869mil,-2171mil)(992mil,-2171mil) on Top Overlay Silk Text to Silk Clearance [7.171mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D43" (1950mil,-3170mil) on Top Overlay And Track (1932.999mil,-3181mil)(2055.999mil,-3181mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D44" (3666.181mil,-2660.571mil) on Top Overlay And Track (3649.18mil,-2671.571mil)(3772.18mil,-2671.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D45" (1950mil,-1655mil) on Top Overlay And Track (1932.999mil,-1666mil)(2055.999mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D46" (885mil,-2665.692mil) on Top Overlay And Track (869mil,-2676mil)(992mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D47" (885mil,-3675.692mil) on Top Overlay And Track (869mil,-3686mil)(992mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D48" (2601.181mil,-3166.263mil) on Top Overlay And Track (2585.181mil,-3176.571mil)(2708.181mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D49" (2601.181mil,-3671.263mil) on Top Overlay And Track (2585.181mil,-3681.571mil)(2708.181mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D5" (2023.59mil,-186.614mil) on Top Overlay And Track (1995.992mil,-197.614mil)(2118.992mil,-197.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.133mil < 10mil) Between Text "D5" (2023.59mil,-186.614mil) on Top Overlay And Track (2068.992mil,-265.614mil)(2068.992mil,-197.614mil) on Top Overlay Silk Text to Silk Clearance [8.133mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D50" (1800mil,-1655.692mil) on Top Overlay And Track (1780.999mil,-1666mil)(1903.999mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D51" (1035mil,-2665mil) on Top Overlay And Track (1020mil,-2676mil)(1143mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.556mil < 10mil) Between Text "D52" (1035mil,-3675mil) on Top Overlay And Track (1020mil,-3686mil)(1143mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [8.556mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D53" (2751.181mil,-3165.571mil) on Top Overlay And Track (2736.181mil,-3176.571mil)(2859.181mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D54" (2751.181mil,-3670.571mil) on Top Overlay And Track (2736.181mil,-3681.571mil)(2859.181mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D55" (1645mil,-1655.692mil) on Top Overlay And Track (1629mil,-1666mil)(1752mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D56" (1190mil,-2665mil) on Top Overlay And Track (1172mil,-2676mil)(1295mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D57" (1190mil,-3675mil) on Top Overlay And Track (1172mil,-3686mil)(1295mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D58" (2906.181mil,-3165.571mil) on Top Overlay And Track (2888.181mil,-3176.571mil)(3011.181mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D59" (2906.181mil,-3670.571mil) on Top Overlay And Track (2888.181mil,-3681.571mil)(3011.181mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (5mil < 10mil) Between Text "D6" (1440.264mil,-600.059mil) on Top Overlay And Track (1389.331mil,-607.559mil)(1549.331mil,-607.559mil) on Top Overlay Silk Text to Silk Clearance [5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D60" (1495mil,-1655.055mil) on Top Overlay And Track (1476mil,-1666mil)(1599mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D61" (1340mil,-2665.055mil) on Top Overlay And Track (1324mil,-2676mil)(1447mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D62" (1340mil,-3675.055mil) on Top Overlay And Track (1324mil,-3686mil)(1447mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D63" (3056.181mil,-3165.626mil) on Top Overlay And Track (3040.181mil,-3176.571mil)(3163.181mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D64" (3056.181mil,-3670.626mil) on Top Overlay And Track (3040.181mil,-3681.571mil)(3163.181mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D65" (1340mil,-1655.055mil) on Top Overlay And Track (1324mil,-1666mil)(1447mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D66" (1495mil,-2665.055mil) on Top Overlay And Track (1476mil,-2676mil)(1599mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.501mil < 10mil) Between Text "D67" (1495mil,-3675.055mil) on Top Overlay And Track (1476mil,-3686mil)(1599mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [8.501mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D68" (3211.181mil,-3165.626mil) on Top Overlay And Track (3192.181mil,-3176.571mil)(3315.181mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.445mil < 10mil) Between Text "D69" (3211.181mil,-3670.626mil) on Top Overlay And Track (3192.181mil,-3681.571mil)(3315.181mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [8.445mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D7" (1779.59mil,-186.614mil) on Top Overlay And Track (1747.59mil,-197.614mil)(1870.59mil,-197.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.376mil < 10mil) Between Text "D7" (1779.59mil,-186.614mil) on Top Overlay And Track (1820.59mil,-265.614mil)(1820.59mil,-197.614mil) on Top Overlay Silk Text to Silk Clearance [9.376mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D70" (1190mil,-1655mil) on Top Overlay And Track (1172mil,-1666mil)(1295mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D71" (1645mil,-2665.692mil) on Top Overlay And Track (1629mil,-2676mil)(1752mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D72" (1645mil,-3675.692mil) on Top Overlay And Track (1629mil,-3686mil)(1752mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D73" (3361.181mil,-3166.263mil) on Top Overlay And Track (3345.181mil,-3176.571mil)(3468.181mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D74" (3361.181mil,-3671.263mil) on Top Overlay And Track (3345.181mil,-3681.571mil)(3468.181mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D75" (1035mil,-1655mil) on Top Overlay And Track (1020mil,-1666mil)(1143mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D76" (1800mil,-2665.692mil) on Top Overlay And Track (1780.999mil,-2676mil)(1903.999mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D77" (1800mil,-3675.692mil) on Top Overlay And Track (1780.999mil,-3686mil)(1903.999mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D78" (3516.181mil,-3166.263mil) on Top Overlay And Track (3497.18mil,-3176.571mil)(3620.18mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (7.864mil < 10mil) Between Text "D79" (3516.181mil,-3671.263mil) on Top Overlay And Track (3497.18mil,-3681.571mil)(3620.18mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [7.864mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D8" (1559.929mil,-201.614mil) on Top Overlay And Track (1532.331mil,-212.614mil)(1655.331mil,-212.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.99mil < 10mil) Between Text "D8" (1559.929mil,-201.614mil) on Top Overlay And Track (1605.331mil,-280.614mil)(1605.331mil,-212.614mil) on Top Overlay Silk Text to Silk Clearance [9.989mil]
+   Violation between Silk To Silk Clearance Constraint: (7.808mil < 10mil) Between Text "D80" (885mil,-1655.692mil) on Top Overlay And Track (869mil,-1666mil)(992mil,-1666mil) on Top Overlay Silk Text to Silk Clearance [7.808mil]
+   Violation between Silk To Silk Clearance Constraint: (8.556mil < 10mil) Between Text "D81" (1950mil,-2665mil) on Top Overlay And Track (1932.999mil,-2676mil)(2055.999mil,-2676mil) on Top Overlay Silk Text to Silk Clearance [8.556mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D82" (1950mil,-3675mil) on Top Overlay And Track (1932.999mil,-3686mil)(2055.999mil,-3686mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D83" (3666.181mil,-3165.571mil) on Top Overlay And Track (3649.18mil,-3176.571mil)(3772.18mil,-3176.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "D84" (3666.181mil,-3670.571mil) on Top Overlay And Track (3649.18mil,-3681.571mil)(3772.18mil,-3681.571mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (5mil < 10mil) Between Text "D9" (931.602mil,-605.059mil) on Top Overlay And Track (880.669mil,-612.559mil)(1040.669mil,-612.559mil) on Top Overlay Silk Text to Silk Clearance [5mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R1" (2470.394mil,-441.614mil) on Top Overlay And Track (2440.394mil,-450.614mil)(2483.394mil,-450.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R1" (2470.394mil,-441.614mil) on Top Overlay And Track (2517.394mil,-450.614mil)(2560.394mil,-450.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R10" (1305mil,-470mil) on Top Overlay And Track (1286.929mil,-480.614mil)(1329.929mil,-480.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (9.001mil < 10mil) Between Text "R10" (1305mil,-470mil) on Top Overlay And Track (1363.929mil,-480.614mil)(1406.929mil,-480.614mil) on Top Overlay Silk Text to Silk Clearance [9.001mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R11" (1550mil,-340mil) on Top Overlay And Track (1534.331mil,-350.614mil)(1577.331mil,-350.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R11" (1550mil,-340mil) on Top Overlay And Track (1611.331mil,-350.614mil)(1654.331mil,-350.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R12" (1040mil,-475mil) on Top Overlay And Track (1023.071mil,-485.614mil)(1066.071mil,-485.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (9.487mil < 10mil) Between Text "R12" (1040mil,-475mil) on Top Overlay And Track (1100.071mil,-485.614mil)(1143.071mil,-485.614mil) on Top Overlay Silk Text to Silk Clearance [9.487mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R13" (1305mil,-340mil) on Top Overlay And Track (1286.929mil,-350.614mil)(1329.929mil,-350.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (9.446mil < 10mil) Between Text "R13" (1305mil,-340mil) on Top Overlay And Track (1363.929mil,-350.614mil)(1406.929mil,-350.614mil) on Top Overlay Silk Text to Silk Clearance [9.446mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R14" (795mil,-475mil) on Top Overlay And Track (778.267mil,-485.614mil)(821.267mil,-485.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (9.579mil < 10mil) Between Text "R14" (795mil,-475mil) on Top Overlay And Track (855.267mil,-485.614mil)(898.267mil,-485.614mil) on Top Overlay Silk Text to Silk Clearance [9.579mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R15" (1040mil,-345mil) on Top Overlay And Track (1025.669mil,-355.614mil)(1068.669mil,-355.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (8.17mil < 10mil) Between Text "R15" (1040mil,-345mil) on Top Overlay And Track (1102.669mil,-355.614mil)(1145.669mil,-355.614mil) on Top Overlay Silk Text to Silk Clearance [8.17mil]
+   Violation between Silk To Silk Clearance Constraint: (8.114mil < 10mil) Between Text "R16" (795mil,-345mil) on Top Overlay And Track (778.267mil,-355.614mil)(821.267mil,-355.614mil) on Top Overlay Silk Text to Silk Clearance [8.114mil]
+   Violation between Silk To Silk Clearance Constraint: (9.579mil < 10mil) Between Text "R16" (795mil,-345mil) on Top Overlay And Track (855.267mil,-355.614mil)(898.267mil,-355.614mil) on Top Overlay Silk Text to Silk Clearance [9.579mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R2" (2225.59mil,-441.614mil) on Top Overlay And Track (2195.59mil,-450.614mil)(2238.59mil,-450.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R2" (2225.59mil,-441.614mil) on Top Overlay And Track (2272.59mil,-450.614mil)(2315.59mil,-450.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (5mil < 10mil) Between Text "R3" (2470.59mil,-313.114mil) on Top Overlay And Track (2442.992mil,-320.614mil)(2485.992mil,-320.614mil) on Top Overlay Silk Text to Silk Clearance [5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.362mil < 10mil) Between Text "R3" (2470.59mil,-313.114mil) on Top Overlay And Track (2519.992mil,-320.614mil)(2562.992mil,-320.614mil) on Top Overlay Silk Text to Silk Clearance [8.362mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R4" (2025.394mil,-456.614mil) on Top Overlay And Track (1995.394mil,-465.614mil)(2038.394mil,-465.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R4" (2025.394mil,-456.614mil) on Top Overlay And Track (2072.394mil,-465.614mil)(2115.394mil,-465.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R5" (2230.59mil,-311.614mil) on Top Overlay And Track (2195.59mil,-320.614mil)(2238.59mil,-320.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.713mil < 10mil) Between Text "R5" (2230.59mil,-311.614mil) on Top Overlay And Track (2272.59mil,-320.614mil)(2315.59mil,-320.614mil) on Top Overlay Silk Text to Silk Clearance [9.713mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R6" (1780.59mil,-456.614mil) on Top Overlay And Track (1750.59mil,-465.614mil)(1793.59mil,-465.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.893mil < 10mil) Between Text "R6" (1780.59mil,-456.614mil) on Top Overlay And Track (1827.59mil,-465.614mil)(1870.59mil,-465.614mil) on Top Overlay Silk Text to Silk Clearance [9.893mil]
+   Violation between Silk To Silk Clearance Constraint: (5mil < 10mil) Between Text "R7" (2025.59mil,-328.114mil) on Top Overlay And Track (1997.992mil,-335.614mil)(2040.992mil,-335.614mil) on Top Overlay Silk Text to Silk Clearance [5mil]
+   Violation between Silk To Silk Clearance Constraint: (5.293mil < 10mil) Between Text "R7" (2025.59mil,-328.114mil) on Top Overlay And Track (2074.992mil,-335.614mil)(2117.992mil,-335.614mil) on Top Overlay Silk Text to Silk Clearance [5.293mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R8" (1561.733mil,-471.614mil) on Top Overlay And Track (1531.733mil,-480.614mil)(1574.733mil,-480.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (7.987mil < 10mil) Between Text "R8" (1561.733mil,-471.614mil) on Top Overlay And Track (1608.733mil,-480.614mil)(1651.733mil,-480.614mil) on Top Overlay Silk Text to Silk Clearance [7.987mil]
+   Violation between Silk To Silk Clearance Constraint: (6.5mil < 10mil) Between Text "R9" (1785.59mil,-326.614mil) on Top Overlay And Track (1750.59mil,-335.614mil)(1793.59mil,-335.614mil) on Top Overlay Silk Text to Silk Clearance [6.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.569mil < 10mil) Between Text "R9" (1785.59mil,-326.614mil) on Top Overlay And Track (1827.59mil,-335.614mil)(1870.59mil,-335.614mil) on Top Overlay Silk Text to Silk Clearance [9.569mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD1" (2332.992mil,-301.614mil) on Top Overlay And Track (2340.992mil,-312.614mil)(2414.992mil,-312.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD1" (2332.992mil,-301.614mil) on Top Overlay And Track (2340.992mil,-512.614mil)(2340.992mil,-312.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.121mil < 10mil) Between Text "ZD1" (2332.992mil,-301.614mil) on Top Overlay And Track (2414.992mil,-512.614mil)(2414.992mil,-312.614mil) on Top Overlay Silk Text to Silk Clearance [9.121mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD2" (1887.992mil,-316.614mil) on Top Overlay And Track (1895.992mil,-327.614mil)(1969.992mil,-327.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD2" (1887.992mil,-316.614mil) on Top Overlay And Track (1895.992mil,-527.614mil)(1895.992mil,-327.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.868mil < 10mil) Between Text "ZD2" (1887.992mil,-316.614mil) on Top Overlay And Track (1969.992mil,-527.614mil)(1969.992mil,-327.614mil) on Top Overlay Silk Text to Silk Clearance [8.869mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD3" (1424.331mil,-331.614mil) on Top Overlay And Track (1432.331mil,-342.614mil)(1506.331mil,-342.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD3" (1424.331mil,-331.614mil) on Top Overlay And Track (1432.331mil,-542.614mil)(1432.331mil,-342.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.073mil < 10mil) Between Text "ZD3" (1424.331mil,-331.614mil) on Top Overlay And Track (1506.331mil,-542.614mil)(1506.331mil,-342.614mil) on Top Overlay Silk Text to Silk Clearance [8.073mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD4" (915.669mil,-336.614mil) on Top Overlay And Track (923.669mil,-347.614mil)(997.669mil,-347.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (8.5mil < 10mil) Between Text "ZD4" (915.669mil,-336.614mil) on Top Overlay And Track (923.669mil,-547.614mil)(923.669mil,-347.614mil) on Top Overlay Silk Text to Silk Clearance [8.5mil]
+   Violation between Silk To Silk Clearance Constraint: (9.936mil < 10mil) Between Text "ZD4" (915.669mil,-336.614mil) on Top Overlay And Track (997.669mil,-547.614mil)(997.669mil,-347.614mil) on Top Overlay Silk Text to Silk Clearance [9.936mil]
+Rule Violations :142
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Via (1067.598mil,-1440mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1067.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1067.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1067.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1067.598mil,-3460mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1220.598mil,-1440mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1220.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1220.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1220.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1220.598mil,-3460mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1373.598mil,-1440mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1377.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1377.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1377.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1377.598mil,-3460mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1537.598mil,-1440mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1537.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1537.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1537.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1537.598mil,-3460mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1679.598mil,-1440mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1679.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1679.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1679.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1679.598mil,-3460mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1797.598mil,-895mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1832.598mil,-1440mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1832.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1832.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1832.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1832.598mil,-3460mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (807.598mil,-935mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (812.598mil,-1945mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (812.598mil,-2450mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (812.598mil,-2955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (812.598mil,-3460mil) from Top Layer to Bottom Layer 
+Rule Violations :36
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 178
+Waived Violations : 0
+Time Elapsed        : 00:00:01
