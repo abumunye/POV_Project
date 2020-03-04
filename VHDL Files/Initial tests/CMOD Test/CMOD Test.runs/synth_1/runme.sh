@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/abuba/Desktop/CMOD Test/CMOD Test.runs/synth_1'
+HD_PWD='C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -60,29 +60,24 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 3
-  set_param synth.incrementalSynthesisCache C:/Users/abuba/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-104-DESKTOP-FJRCRS8/incrSyn
-  set_param xicom.use_bs_reader 1
+  set_param chipscope.maxJobs 2
   create_project -in_memory -part xc7a35tcpg236-1
-  set_property board_part_repo_paths {C:/Users/abuba/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store} [current_project]
   set_property board_part digilentinc.com:cmod_a7-35t:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/abuba/Desktop/CMOD Test/CMOD Test.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/abuba/Desktop/CMOD Test/CMOD Test.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/abuba/Desktop/CMOD Test/CMOD Test.cache/ip}} [current_project]
+  set_property webtalk.parent_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
-  add_files -quiet {{C:/Users/abuba/Desktop/CMOD Test/CMOD Test.runs/synth_1/top_level.dcp}}
-  read_ip -quiet {{C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}
-  read_xdc {{C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc}}
+  add_files -quiet {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.runs/synth_1/top_level.dcp}}
+  read_ip -quiet {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}
+  read_xdc {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc}}
   link_design -top top_level -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]

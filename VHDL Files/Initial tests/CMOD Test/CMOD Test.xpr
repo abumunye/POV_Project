@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="C:/Users/abuba/Desktop/CMOD Test/CMOD Test.xpr">
+<Project Version="7" Minor="40" Path="C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="9cb9a1aab57143b08e39b4d380466e83"/>

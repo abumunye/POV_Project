@@ -1,69 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1582059180">
-  <File Type="BITSTR-BMM" Name="voltage_test_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="voltage_test_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="voltage_test_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="voltage_test_power_routed.rpt"/>
   <File Type="PA-TCL" Name="voltage_test.tcl"/>
-  <File Type="OPT-TIMING" Name="voltage_test_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="voltage_test_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="voltage_test_power_summary_routed.pb"/>
+  <File Type="BITSTR-BMM" Name="voltage_test_bd.bmm"/>
   <File Type="REPORTS-TCL" Name="voltage_test_reports.tcl"/>
-  <File Type="OPT-DRC" Name="voltage_test_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="voltage_test_opt.dcp"/>
   <File Type="OPT-HWDEF" Name="voltage_test.hwdef"/>
   <File Type="PWROPT-DCP" Name="voltage_test_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="voltage_test_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="voltage_test_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="voltage_test_placed.dcp"/>
-  <File Type="PLACE-IO" Name="voltage_test_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="voltage_test_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="voltage_test_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="voltage_test_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="voltage_test_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="voltage_test_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="voltage_test_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="voltage_test.bgn"/>
-  <File Type="PLACE-TIMING" Name="voltage_test_timing_summary_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="voltage_test_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="voltage_test_incremental_reuse_pre_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="voltage_test_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="voltage_test.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="voltage_test_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="voltage_test_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="voltage_test_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="voltage_test.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="voltage_test_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="voltage_test_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="voltage_test_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="voltage_test_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="voltage_test_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="voltage_test_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="voltage_test.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="voltage_test_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="voltage_test.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="voltage_test_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="voltage_test_methodology_drc_routed.rpx"/>
   <File Type="BITSTR-SYSDEF" Name="voltage_test.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="voltage_test_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="voltage_test_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="voltage_test_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="voltage_test_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="voltage_test_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="voltage_test_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="voltage_test_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="voltage_test_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="voltage_test_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="voltage_test_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="voltage_test_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="voltage_test_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="voltage_test_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="voltage_test_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="voltage_test_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="voltage_test_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="voltage_test_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="voltage_test_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="voltage_test_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="voltage_test.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="voltage_test_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="voltage_test.rbt"/>
   <File Type="BITSTR-NKY" Name="voltage_test.nky"/>
   <File Type="BG-DRC" Name="voltage_test.drc"/>
@@ -102,9 +61,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

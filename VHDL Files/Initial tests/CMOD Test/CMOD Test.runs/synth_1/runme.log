@@ -15,22 +15,23 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 3084 
+INFO: Helper process launched with PID 5892 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 839.824 ; gain = 178.633
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 729.438 ; gain = 178.488
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top_level' [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'top_level' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:14]
 	Parameter divider bound to: 50000000 - type: integer 
-INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:13' bound to instance 'one_hz_clk_divider' of component 'clock_divider' [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:20]
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:13' bound to instance 'one_hz_clk_divider' of component 'clock_divider' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:20]
 	Parameter divider bound to: 50000000 - type: integer 
-WARNING: [Synth 8-614] signal 'tmp' is read in the process but is not in the sensitivity list [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'clock_divider' (1#1) [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:20]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/abuba/Desktop/CMOD Test/CMOD Test.runs/synth_1/.Xil/Vivado-13760-DESKTOP-FJRCRS8/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'your_instance_name' of component 'clk_wiz_0' [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:47]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.runs/synth_1/.Xil/Vivado-13760-DESKTOP-FJRCRS8/realtime/clk_wiz_0_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'top_level' (2#1) [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:14]
+WARNING: [Synth 8-614] signal 'tmp' is read in the process but is not in the sensitivity list [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (1#1) [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd:20]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.runs/synth_1/.Xil/Vivado-5664-DESKTOP-ECPARC8/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'your_instance_name' of component 'clk_wiz_0' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.runs/synth_1/.Xil/Vivado-5664-DESKTOP-ECPARC8/realtime/clk_wiz_0_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'top_level' (2#1) [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd:14]
+WARNING: [Synth 8-3917] design top_level has port o_pin driven by constant 1
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 904.723 ; gain = 243.531
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 794.098 ; gain = 243.148
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -43,49 +44,49 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 904.723 ; gain = 243.531
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 794.098 ; gain = 243.148
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 904.723 ; gain = 243.531
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 794.098 ; gain = 243.148
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'your_instance_name'
-Finished Parsing XDC File [c:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'your_instance_name'
-Parsing XDC File [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc]
-Finished Parsing XDC File [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_propImpl.xdc].
+Parsing XDC File [c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'your_instance_name'
+Finished Parsing XDC File [c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'your_instance_name'
+Parsing XDC File [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 985.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 875.984 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 985.207 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 875.984 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 985.207 ; gain = 324.016
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 875.984 ; gain = 325.035
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 985.207 ; gain = 324.016
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 875.984 ; gain = 325.035
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  {c:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  {c:/Users/abuba/Desktop/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  {c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  {c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
 Applied set_property DONT_TOUCH = true for your_instance_name. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 985.207 ; gain = 324.016
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 875.984 ; gain = 325.035
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 985.207 ; gain = 324.016
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 875.984 ; gain = 325.035
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -136,8 +137,9 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design top_level has port o_pin driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 985.207 ; gain = 324.016
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 875.984 ; gain = 325.035
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -151,13 +153,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'your_instance_name/clk_out1' to pin 'your_instance_name/bbstub_clk_out1/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 997.973 ; gain = 336.781
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 888.645 ; gain = 337.695
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1019.730 ; gain = 358.539
+Finished Timing Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 910.125 ; gain = 359.176
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -169,7 +171,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1019.730 ; gain = 358.539
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 910.125 ; gain = 359.176
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -193,7 +195,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -206,7 +208,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -218,25 +220,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -270,27 +272,27 @@ Report Instance Areas:
 |2     |  one_hz_clk_divider |clock_divider |    52|
 +------+---------------------+--------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1027.277 ; gain = 285.602
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.277 ; gain = 366.086
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:01:08 . Memory (MB): peak = 917.656 ; gain = 284.820
+Synthesis Optimization Complete : Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 917.656 ; gain = 366.707
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1044.746 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 931.254 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-21 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+21 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1044.746 ; gain = 616.422
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1044.746 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 931.254 ; gain = 620.828
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 931.254 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/abuba/Desktop/CMOD Test/CMOD Test.runs/synth_1/top_level.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.runs/synth_1/top_level.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_level_utilization_synth.rpt -pb top_level_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Mar  2 19:35:00 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  4 20:14:44 2020...

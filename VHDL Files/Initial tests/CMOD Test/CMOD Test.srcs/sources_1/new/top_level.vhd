@@ -32,7 +32,7 @@ architecture Behavioral of top_level is
     signal clk_1hz : STD_LOGIC;
 begin
 
-    o_pin <= clk_1hz;
+    o_pin <= '1';
     o_led <= clk_1hz;
     
     one_hz_clk_divider : clock_divider 

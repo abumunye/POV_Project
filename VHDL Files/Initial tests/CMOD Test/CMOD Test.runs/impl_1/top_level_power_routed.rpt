@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Mon Mar  2 19:36:05 2020
-| Host             : DESKTOP-FJRCRS8 running 64-bit major release  (build 9200)
+| Date             : Wed Mar  4 20:17:46 2020
+| Host             : DESKTOP-ECPARC8 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_level_power_routed.rpt -pb top_level_power_summary_routed.pb -rpx top_level_power_routed.rpx
 | Design           : top_level
 | Device           : xc7a35tcpg236-1
@@ -53,11 +53,11 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |       56 |       --- |             --- |
+| Slice Logic    |    <0.001 |       57 |       --- |             --- |
 |   LUT as Logic |    <0.001 |       10 |     20800 |            0.05 |
 |   CARRY4       |    <0.001 |        8 |      8150 |            0.10 |
 |   Register     |    <0.001 |       33 |     41600 |            0.08 |
-|   Others       |     0.000 |        4 |       --- |             --- |
+|   Others       |     0.000 |        5 |       --- |             --- |
 | Signals        |    <0.001 |       49 |       --- |             --- |
 | MMCM           |     0.104 |        1 |         5 |           20.00 |
 | I/O            |    <0.001 |        3 |       106 |            2.83 |
@@ -147,6 +147,7 @@ Table of Contents
 | Name                 | Power (W) |
 +----------------------+-----------+
 | top_level            |     0.105 |
+|   one_hz_clk_divider |     0.001 |
 |   your_instance_name |     0.104 |
 |     inst             |     0.104 |
 +----------------------+-----------+
