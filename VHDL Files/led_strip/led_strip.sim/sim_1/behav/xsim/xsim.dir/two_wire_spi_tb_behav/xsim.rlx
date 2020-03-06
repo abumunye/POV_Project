@@ -1,6 +1,6 @@
 
 { 
-    crc :  5620191662471964081  , 
+    crc :  2725645651331099490  , 
     ccp_crc :  0  , 
     cmdline : " -wto c2ef76bd66ec4d29a582b4846354568b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot two_wire_spi_tb_behav xil_defaultlib.two_wire_spi_tb" , 
     buildDate : "May 24 2019" , 

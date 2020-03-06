@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1582059180">
-  <File Type="PA-TCL" Name="voltage_test.tcl"/>
   <File Type="BITSTR-BMM" Name="voltage_test_bd.bmm"/>
-  <File Type="REPORTS-TCL" Name="voltage_test_reports.tcl"/>
+  <File Type="PA-TCL" Name="voltage_test.tcl"/>
   <File Type="OPT-DCP" Name="voltage_test_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="voltage_test_reports.tcl"/>
   <File Type="OPT-HWDEF" Name="voltage_test.hwdef"/>
-  <File Type="PWROPT-DCP" Name="voltage_test_pwropt.dcp"/>
   <File Type="BG-BGN" Name="voltage_test.bgn"/>
+  <File Type="PWROPT-DCP" Name="voltage_test_pwropt.dcp"/>
   <File Type="PLACE-DCP" Name="voltage_test_placed.dcp"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="voltage_test_incremental_reuse_pre_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="voltage_test_postplace_pwropt.dcp"/>
