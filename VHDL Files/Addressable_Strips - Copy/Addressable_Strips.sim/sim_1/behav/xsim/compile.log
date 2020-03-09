@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.srcs/sources_1/new/LED_Strip_Control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LED_Strip_Control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.srcs/sim_1/new/LED_Strip_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LED_Strip_TB'

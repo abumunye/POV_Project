@@ -17,28 +17,29 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param chipscope.maxJobs 2
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.xpr} [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:cmod_a7-35t:part0:1.1 [current_project]
-set_property ip_output_repo {c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  {C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd}
-  {C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd}
+  {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/clk_divider.vhd}
+  {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/new/top_level.vhd}
 }
-read_ip -quiet {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}
-set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc}}]
+read_ip -quiet {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}
+set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc}}]
+set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc}}]
+set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc}}]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -48,8 +49,8 @@ set_property used_in_implementation false [get_files -all {{c:/Users/abuba/Docum
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc}}]
+read_xdc {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Initial tests/CMOD Test/CMOD Test.srcs/constrs_1/new/constraints.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

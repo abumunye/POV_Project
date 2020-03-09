@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Addressable_Strips.srcs/sources_1/new/SPI_Master.vhd" \
+"../../../../Addressable_Strips.srcs/sources_1/new/LED_Strip_Control.vhd" \
+"../../../../Addressable_Strips.srcs/sources_1/new/Top_Level.vhd" \
+"../../../../Addressable_Strips.srcs/sim_1/new/Top_Level_TB.vhd" \
+
+# Do not sort compile order
+nosort

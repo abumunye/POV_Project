@@ -11,7 +11,7 @@ entity top_level is
     );
 end top_level;
 
-architecture Behavioral of top_level is
+    architecture Behavioral of top_level is
 
     component clk_wiz_0
         Port

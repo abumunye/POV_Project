@@ -1,0 +1,11 @@
+set_property SRC_FILE_INFO {cfile:{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.srcs/constrs_1/new/top_constraints.xdc} rfile:../../../Addressable_Strips.srcs/constrs_1/new/top_constraints.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN L17   IOSTANDARD LVCMOS33 } [get_ports { i_Clk }]; #IO_L12P_T1_MRCC_14 Sch=gclk
+set_property src_info {type:XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A18   IOSTANDARD LVCMOS33 } [get_ports { i_Rst_H }]; #IO_L19N_T3_VREF_16 Sch=btn[0]
+set_property src_info {type:XDC file:1 line:50 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN C15   IOSTANDARD LVCMOS33 } [get_ports { o_SPI_MOSI }]; #IO_L11P_T1_SRCC_16 Sch=pio[05]
+set_property src_info {type:XDC file:1 line:53 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B15   IOSTANDARD LVCMOS33 } [get_ports { o_SPI_Clk }]; #IO_L11N_T1_SRCC_16 Sch=pio[08]
+set_property src_info {type:XDC file:1 line:67 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R3    IOSTANDARD LVCMOS33 } [get_ports { o_Pin }]; #IO_L2P_T0_34 Sch=pio[26]

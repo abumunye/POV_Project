@@ -1,0 +1,4 @@
+Running: xsim.dir/LED_Strip_TB_behav/xsimk.exe -simmode gui -wdb LED_Strip_TB_behav.wdb -simrunnum 0 -socket 54929
+Design successfully loaded
+Design Loading Memory Usage: 5212 KB (Peak: 5212 KB)
+Design Loading CPU Usage: 61 ms

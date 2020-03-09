@@ -2,13 +2,13 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri Mar  6 18:25:28 2020
-# Process ID: 4972
-# Current directory: C:/Users/abuba/Desktop/Newest Website/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source C:/Users/abuba/Desktop/Newest Website/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim/xsim.dir/CLK_Divider_TB_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: C:/Users/abuba/Desktop/Newest Website/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: C:/Users/abuba/Desktop/Newest Website/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim\webtalk.jou
+# Start of session at: Sun Mar  8 19:12:57 2020
+# Process ID: 2372
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim/xsim.dir/LED_Strip_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Addressable_Strips/Addressable_Strips.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/abuba/Desktop/Newest -notrace
-couldn't read file "C:/Users/abuba/Desktop/Newest": no such file or directory
-INFO: [Common 17-206] Exiting Webtalk at Fri Mar  6 18:25:28 2020...
+source C:/Users/abuba/Documents/POV -notrace
+couldn't read file "C:/Users/abuba/Documents/POV": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar  8 19:12:57 2020...

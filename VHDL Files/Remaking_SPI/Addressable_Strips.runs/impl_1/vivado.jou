@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Mar  9 08:43:04 2020
+# Process ID: 17336
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1
+# Command line: vivado.exe -log Top_Level.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_Level.tcl -notrace
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.vdi
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Level.tcl -notrace
