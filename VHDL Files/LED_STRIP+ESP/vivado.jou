@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 14 19:05:47 2020
+# Process ID: 3824
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16952 C:\Users\abuba\Documents\POV Fan Project\POV_Project\POV_Project\VHDL Files\LED_STRIP+ESP\Addressable_Strips.xpr
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/vivado.log
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.xpr}
+update_compile_order -fileset sources_1
+
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Slave.vhd} w ]
+add_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Slave.vhd}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sim_1/new/SPI_Slave_TB.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sim_1/new/SPI_Slave_TB.vhd}}
+update_compile_order -fileset sim_1
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Vector_Array.vhd} w ]
+add_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Vector_Array.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/ESP_Pixel_Data.vhd} w ]
+add_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/ESP_Pixel_Data.vhd}}
+update_compile_order -fileset sources_1

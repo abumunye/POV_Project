@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 14 19:05:47 2020
+# Process ID: 3824
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16952 C:\Users\abuba\Documents\POV Fan Project\POV_Project\POV_Project\VHDL Files\LED_STRIP+ESP\Addressable_Strips.xpr
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/vivado.log
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP'
+INFO: [Project 1-313] Project file moved from 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/abuba/Documents/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 740.434 ; gain = 118.020
+update_compile_order -fileset sources_1
+eclose [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Slave.vhd} w ]
+add_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Slave.vhd}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sim_1/new/SPI_Slave_TB.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sim_1/new/SPI_Slave_TB.vhd}}
+update_compile_order -fileset sim_1
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Vector_Array.vhd} w ]
+add_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Vector_Array.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Top_Level
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1212.273 ; gain = 177.410
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_Level' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:19]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/.Xil/Vivado-16908-DESKTOP-ECPARC8/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'your_instance_name' of component 'clk_wiz_0' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/.Xil/Vivado-16908-DESKTOP-ECPARC8/realtime/clk_wiz_0_stub.vhdl:13]
+INFO: [Synth 8-638] synthesizing module 'LED_Strip_Control' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/LED_Strip_Control.vhd:28]
+	Parameter g_NUMBER_OF_LEDS bound to: 72 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SPI_Master' [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Master.vhd:24]
+	Parameter g_SPI_CLK bound to: 1000 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element r_TX_DV_reg was removed.  [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Master.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'SPI_Master' (1#1) [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/SPI_Master.vhd:24]
+WARNING: [Synth 8-614] signal 'r_Half_Clk' is read in the process but is not in the sensitivity list [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/LED_Strip_Control.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'LED_Strip_Control' (2#1) [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/LED_Strip_Control.vhd:28]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[0] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[1] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[2] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[3] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[4] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[5] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[6] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[7] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[8] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[9] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[10] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[11] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[12] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[13] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[14] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[15] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[16] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[17] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[18] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[19] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[20] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[21] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[22] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[23] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[24] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[25] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[26] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[27] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[28] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[29] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[30] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[31] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[32] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[33] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[34] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[35] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[36] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[37] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[38] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[39] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[40] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[41] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[42] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[43] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[44] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[45] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[46] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[47] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[48] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[49] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[50] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[51] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[52] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[53] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[54] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[55] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[56] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[57] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[58] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[59] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[60] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[61] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[62] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[63] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[64] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[65] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[66] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[67] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[68] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[69] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[70] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[71] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[72] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[73] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[74] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[75] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[76] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[77] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[78] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[79] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[80] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[81] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[82] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[83] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[84] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[85] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[86] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[87] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[88] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[89] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[90] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[91] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[92] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[93] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[94] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[95] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[96] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[97] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[98] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+WARNING: [Synth 8-3848] Net r_Pixel_Data[99] in module/entity Top_Level does not have driver. [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:30]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'Top_Level' (3#1) [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/Top_Level.vhd:19]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[0][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[1][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[2][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[3][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[4][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[5][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[6][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[7][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[8][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[9][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[10][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][4]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][3]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][2]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][1]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[11][0]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[12][7]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[12][6]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[12][5]
+WARNING: [Synth 8-3331] design LED_Strip_Control has unconnected port i_Pixel_Data[12][4]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1253.211 ; gain = 218.348
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1253.406 ; gain = 218.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1253.406 ; gain = 218.543
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'your_instance_name'
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'your_instance_name/inst'
+Parsing XDC File [c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'your_instance_name/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Level_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Level_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/constrs_1/new/top_constraints.xdc]
+Finished Parsing XDC File [C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/constrs_1/new/top_constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1379.105 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 1419.664 ; gain = 384.801
+20 Infos, 202 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:34 . Memory (MB): peak = 1419.664 ; gain = 600.402
+close [ open {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/ESP_Pixel_Data.vhd} w ]
+add_files {{C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/LED_STRIP+ESP/Addressable_Strips.srcs/sources_1/new/ESP_Pixel_Data.vhd}}
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 14 21:49:28 2020...

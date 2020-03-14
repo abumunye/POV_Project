@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file C:\Users\abuba\Documents\POV Fan Project\POV_Project\POV_Project\VHDL Files\Initial tests\CMOD Test\CMOD Test.runs\impl_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied

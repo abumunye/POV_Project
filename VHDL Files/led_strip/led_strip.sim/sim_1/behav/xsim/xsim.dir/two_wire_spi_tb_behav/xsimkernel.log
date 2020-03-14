@@ -1,7 +1,0 @@
-Running: xsim.dir/two_wire_spi_tb_behav/xsimk.exe -simmode gui -wdb two_wire_spi_tb_behav.wdb -simrunnum 0 -socket 61496
-Design successfully loaded
-Design Loading Memory Usage: 5220 KB (Peak: 5220 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 5816 KB (Peak: 5816 KB)
-Simulation CPU Usage: 61 ms

@@ -1,1 +1,0 @@
--wto "c2ef76bd66ec4d29a582b4846354568b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "two_wire_spi_behav" "xil_defaultlib.two_wire_spi" -log "elaborate.log" 

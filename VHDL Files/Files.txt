@@ -1,0 +1,7 @@
+Addressable_Strips -- ??
+Addressable_Strips - Copy -- ??
+ESP_Communication -- this is the first version of SPI that worked on simulation but didnt output anything
+ESP_Communication - Copy -- this is the working SPI
+Strip -- Red Blue flashing on the led strip
+LED_STRIP+ESP -- ??
+

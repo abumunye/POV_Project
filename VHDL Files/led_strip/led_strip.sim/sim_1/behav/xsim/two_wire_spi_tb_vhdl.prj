@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../led_strip.srcs/sources_1/new/clock_divider.vhd" \
-"../../../../led_strip.srcs/sources_1/new/led_control.vhd" \
-"../../../../led_strip.srcs/sim_1/new/two_wire_spi_tb.vhd" \
-
-# Do not sort compile order
-nosort

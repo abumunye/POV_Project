@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Mar  9 20:07:33 2020
+# Process ID: 10044
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11768 C:\Users\abuba\Documents\POV Fan Project\POV_Project\POV_Project\VHDL Files\Strip\Addressable_Strips.xpr
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip/vivado.log
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip/Addressable_Strips.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip'
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/abuba/Documents/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 743.121 ; gain = 105.840
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328AD3F3AA
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1918.742 ; gain = 1111.023
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Strip/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210328AD3F3AA

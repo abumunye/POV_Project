@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 12 10:10:23 2020
+# Process ID: 21728
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19700 C:\Users\abuba\Documents\POV Fan Project\POV_Project\POV_Project\VHDL Files\ESP_Communication\ESP_Communication.xpr
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication/vivado.log
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication/ESP_Communication.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Top_Level_TB.tcl
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+current_wave_config {Untitled 4}
+add_wave {{/Top_Level_TB/UUT/o_TX_DV}} 
+current_wave_config {Untitled 4}
+add_wave {{/Top_Level_TB/UUT/SPI_Read/o_TX_DV}} 
+restart
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+current_wave_config {Untitled 5}
+log_wave {/Top_Level_TB/UUT/o_TX_DV} 
+current_wave_config {Untitled 5}
+add_wave {{/Top_Level_TB/UUT/o_TX_DV}} 
+current_wave_config {Untitled 5}
+add_wave {{/Top_Level_TB/UUT/SPI_Read/o_TX_DV}} 
+restart
+run 1 s
+restart
+run 1 s
+current_wave_config {Untitled 5}
+add_wave {{/Top_Level_TB/UUT/SPI_Read/o_Data}} 
+restart
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+current_wave_config {Untitled 6}
+add_wave {{/Top_Level_TB/UUT/SPI_Read/r_TX_DV}} 
+current_wave_config {Untitled 6}
+add_wave {{/Top_Level_TB/UUT/SPI_Read/o_TX_DV}} 
+restart
+run 1 s
+current_wave_config {Untitled 6}
+add_wave {{/Top_Level_TB/UUT/SPI_Read/r_Half_Clk}} 
+restart
+run 1 s
+relaunch_sim
+restart
+run 1 s
+relaunch_sim
+restart
+run 1 s
+relaunch_sim
+restart
+run 1 s
+relaunch_sim
+restart
+run 1 s
+restart
+restart
+run 1 s
+close_sim
+launch_simulation
+source Top_Level_TB.tcl
+relaunch_sim
+restart
+run 1 s
+relaunch_sim
+restart
+run 1 s

@@ -1,0 +1,358 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar  8 13:54:22 2020
+# Process ID: 18136
+# Current directory: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17992 C:\Users\abuba\Documents\POV Fan Project\POV_Project\POV_Project\VHDL Files\Remaking_SPI\Addressable_Strips.xpr
+# Log file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/vivado.log
+# Journal file: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SPI_Master_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source SPI_Master_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/SPI_Master_TB/UUT/r_TX_Byte}} 
+restart
+run 1 s
+restart
+run 3000 ns
+open_hw
+close_sim
+launch_simulation
+source SPI_Master_TB.tcl
+current_wave_config {Untitled 2}
+add_wave {{/SPI_Master_TB/UUT/r_SPI_Bits}} 
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source SPI_Master_TB.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source SPI_Master_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Top_Level_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 3000 ns
+restart
+run 1 s
+current_wave_config {Untitled 5}
+add_wave {{/Top_Level_TB/UUT/SPI/r_STATE}} 
+restart
+run 1 s
+current_wave_config {Untitled 5}
+add_wave {{/Top_Level_TB/UUT/SPI/r_TX_Count}} 
+restart
+run 1 s
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top LED_Strip_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source LED_Strip_TB.tcl
+current_wave_config {Untitled 6}
+add_wave {{/LED_Strip_TB/UUT/r_TX_Count}} 
+current_wave_config {Untitled 6}
+add_wave {{/LED_Strip_TB/UUT/r_STATE}} 
+restart
+run 1 s
+current_wave_config {Untitled 6}
+add_wave {{/LED_Strip_TB/UUT/w_TX_Ready}} 
+restart
+run 1 s
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source LED_Strip_TB.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source LED_Strip_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SPI_Master_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source SPI_Master_TB.tcl
+restart
+run 1 s
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top LED_Strip_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source LED_Strip_TB.tcl
+restart
+run 1 s
+current_wave_config {Untitled 10}
+add_wave {{/LED_Strip_TB/UUT/spi/r_SPI_Bits}} 
+current_wave_config {Untitled 10}
+add_wave {{/LED_Strip_TB/UUT/r_TX_Count}} 
+current_wave_config {Untitled 10}
+add_wave {{/LED_Strip_TB/UUT/r_LED_STATE}} 
+current_wave_config {Untitled 10}
+add_wave {{/LED_Strip_TB/UUT/r_STATE}} 
+restart
+run 1 s
+current_wave_config {Untitled 10}
+add_wave {{/LED_Strip_TB/UUT/r_TX_DV}} 
+current_wave_config {Untitled 10}
+add_wave {{/LED_Strip_TB/UUT/w_TX_Ready}} 
+restart
+run 1 s
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+undo
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source LED_Strip_TB.tcl
+close_sim
+launch_simulation
+source LED_Strip_TB.tcl
+restart
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source LED_Strip_TB.tcl
+restart
+run 1 s
+current_wave_config {Untitled 13}
+add_wave {{/LED_Strip_TB/UUT/r_STATE}} 
+current_wave_config {Untitled 13}
+add_wave {{/LED_Strip_TB/UUT/r_TX_Count}} 
+restart
+run 1 s
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Top_Level_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source Top_Level_TB.tcl
+restart
+run 1 s
+current_wave_config {Untitled 15}
+add_wave {{/Top_Level_TB/UUT/SPI/r_Red}} 
+current_wave_config {Untitled 15}
+add_wave {{/Top_Level_TB/UUT/SPI/r_LED_STATE}} 
+current_wave_config {Untitled 15}
+add_wave {{/Top_Level_TB/UUT/SPI/r_STATE}} 
+current_wave_config {Untitled 15}
+add_wave {{/Top_Level_TB/UUT/SPI/r_TX_Count}} 
+restart
+run 1 s
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -rtl -name rtl_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir {c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip}
+generate_target {instantiation_template} [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_1 -dir {c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip}
+set_property -dict [list CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.PRIM_IN_FREQ {12.000} CONFIG.CLKIN1_JITTER_PS {833.33} CONFIG.MMCM_CLKFBOUT_MULT_F {62.500} CONFIG.MMCM_CLKIN1_PERIOD {83.333} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {7.500} CONFIG.CLKOUT1_JITTER {479.872} CONFIG.CLKOUT1_PHASE_ERROR {668.310}] [get_ips clk_wiz_1]
+generate_target {instantiation_template} [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}]
+generate_target all [get_files  {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_1] }
+export_ip_user_files -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}]
+launch_runs -jobs 4 clk_wiz_1_synth_1
+export_simulation -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}] -directory {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files} -ipstatic_source_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/modelsim} {questa=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/questa} {riviera=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/riviera} {activehdl=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}] -no_script -reset -force -quiet
+remove_files  -fileset clk_wiz_1 {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci}}
+set_property -dict [list CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false}] [get_ips clk_wiz_0]
+generate_target all [get_files  {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+launch_runs -jobs 4 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -directory {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files} -ipstatic_source_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/modelsim} {questa=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/questa} {riviera=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/riviera} {activehdl=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+report_ssn -name ssn_1
+set_property -dict [list CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} CONFIG.PRIM_IN_FREQ {12.000} CONFIG.CLKIN1_JITTER_PS {833.33} CONFIG.MMCM_CLKFBOUT_MULT_F {62.500} CONFIG.MMCM_CLKIN1_PERIOD {83.333} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {7.500} CONFIG.CLKOUT1_JITTER {479.872} CONFIG.CLKOUT1_PHASE_ERROR {668.310}] [get_ips clk_wiz_0]
+generate_target all [get_files  {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 4 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -directory {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files} -ipstatic_source_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/modelsim} {questa=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/questa} {riviera=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/riviera} {activehdl=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+wait_on_run clk_wiz_0_synth_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {64} CONFIG.MMCM_CLKFBOUT_MULT_F {64.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.000} CONFIG.CLKOUT1_JITTER {502.557} CONFIG.CLKOUT1_PHASE_ERROR {693.818}] [get_ips clk_wiz_0]
+generate_target all [get_files  {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 4 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -directory {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files} -ipstatic_source_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/modelsim} {questa=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/questa} {riviera=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/riviera} {activehdl=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.runs/impl_1/Top_Level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {32} CONFIG.MMCM_CLKOUT0_DIVIDE_F {24.000} CONFIG.CLKOUT1_JITTER {557.715}] [get_ips clk_wiz_0]
+generate_target all [get_files  {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 4 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files {{c:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -directory {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files} -ipstatic_source_dir {C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/modelsim} {questa=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/questa} {riviera=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/riviera} {activehdl=C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/Remaking_SPI/Addressable_Strips.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+reset_run clk_wiz_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

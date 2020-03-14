@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication/ESP_Communication.srcs/sources_1/new/SPI_Master.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SPI_Master'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication/ESP_Communication.srcs/sources_1/new/SPI_Slave.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SPI_Slave'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication/ESP_Communication.srcs/sources_1/new/Top_Level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_Level'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication/ESP_Communication.srcs/sim_1/new/Top_Level_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_Level_TB'

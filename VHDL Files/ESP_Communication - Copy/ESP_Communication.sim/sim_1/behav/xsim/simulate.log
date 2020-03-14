@@ -1,0 +1,8 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Failure: Test Complete
+Time: 20545 ns  Iteration: 0  Process: /Top_Level_TB/Testing  File: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication - Copy/ESP_Communication.srcs/sim_1/new/Top_Level_TB.vhd
+$finish called at time : 20545 ns : File "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication - Copy/ESP_Communication.srcs/sim_1/new/Top_Level_TB.vhd" Line 79
+Failure: Test Complete
+Time: 20545 ns  Iteration: 0  Process: /Top_Level_TB/Testing  File: C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication - Copy/ESP_Communication.srcs/sim_1/new/Top_Level_TB.vhd
+$finish called at time : 20545 ns : File "C:/Users/abuba/Documents/POV Fan Project/POV_Project/POV_Project/VHDL Files/ESP_Communication - Copy/ESP_Communication.srcs/sim_1/new/Top_Level_TB.vhd" Line 79
